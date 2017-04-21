@@ -99,4 +99,4 @@ ENV/
 /site
 
 pip-selfcheck.json
-pyenv.cfg
+pyvenv.cfg
