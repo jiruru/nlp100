@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import subprocess
+import sys
 
-check = subprocess.check_output("./11.sh")
-print(check)
+sys.stdout.write(open("./hightemp.txt").read().replace('\t', ' '))
