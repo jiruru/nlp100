@@ -9,3 +9,4 @@ if __name__ == '__main__':
             uk = json.loads(line)
             if uk['title'] == 'イギリス':
                 w.write(uk['text'])
+                print(uk)
